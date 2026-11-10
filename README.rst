@@ -2,7 +2,7 @@
 Information
 ===========
 
-This is a fork of QEMU for Darwin machine using Cocoa. This fixes several bugs that happen as a result of using Cocoa. For the original QEMU repository,  visit the `QEMU GitHub Repository <https://github.com/qemu/QEMU>`_.
+This is a fork of QEMU for Darwin based machine using Cocoa. This fixes several bugs that happen as a result of using Cocoa. For the original QEMU repository,  visit the `QEMU GitHub Repository <https://github.com/qemu/QEMU>`_.
 
 ===========
 QEMU README
