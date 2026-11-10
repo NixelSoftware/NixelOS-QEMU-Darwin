@@ -1,0 +1,10 @@
+prefix=/Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin/build-i386
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin
+
+Name: libfdt
+Description: Flat Device Tree manipulation
+Version: 1.6.0
+Libs: -L${prefix}/subprojects/dtc/libfdt -lfdt
+Cflags: -I${prefix}/subprojects/dtc/libfdt -I${srcdir}/subprojects/dtc/libfdt

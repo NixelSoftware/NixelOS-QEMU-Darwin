@@ -1,0 +1,470 @@
+[
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "threads"
+    ]
+  },
+  {
+    "name": "appleframeworks",
+    "type": "appleframeworks",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-framework",
+      "Cocoa",
+      "-framework",
+      "CoreVideo",
+      "-framework",
+      "QuartzCore"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "cocoa"
+    ]
+  },
+  {
+    "name": "glib-2.0",
+    "type": "pkgconfig",
+    "version": "2.90.1",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/glib-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/lib/glib-2.0/include",
+      "-I/opt/homebrew/opt/gettext/include",
+      "-I/opt/homebrew/Cellar/pcre2/10.49/include"
+    ],
+    "link_args": [
+      "-L/opt/homebrew/Cellar/glib/2.90.1/lib",
+      "-L/opt/homebrew/opt/gettext/lib",
+      "-L/opt/homebrew/Cellar/pcre2/10.49/lib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libglib-2.0.a",
+      "/opt/homebrew/opt/gettext/lib/libintl.a",
+      "-liconv",
+      "-lm",
+      "-framework",
+      "Foundation",
+      "-framework",
+      "CoreFoundation",
+      "-framework",
+      "AppKit",
+      "-framework",
+      "Carbon",
+      "/opt/homebrew/Cellar/pcre2/10.49/lib/libpcre2-8.a",
+      "-pthread",
+      "-lpthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "glib_static"
+    ]
+  },
+  {
+    "name": "gmodule-no-export-2.0",
+    "type": "pkgconfig",
+    "version": "2.90.1",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/glib-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/lib/glib-2.0/include",
+      "-I/opt/homebrew/opt/gettext/include",
+      "-I/opt/homebrew/Cellar/pcre2/10.49/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libgmodule-2.0.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libglib-2.0.dylib",
+      "/opt/homebrew/opt/gettext/lib/libintl.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gmodule"
+    ]
+  },
+  {
+    "name": "gio-2.0",
+    "type": "pkgconfig",
+    "version": "2.90.1",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include",
+      "-I/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/ffi",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/glib-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/lib/glib-2.0/include",
+      "-I/opt/homebrew/opt/gettext/include",
+      "-I/opt/homebrew/Cellar/pcre2/10.49/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libgio-2.0.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libgobject-2.0.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libglib-2.0.dylib",
+      "/opt/homebrew/opt/gettext/lib/libintl.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "gio-unix-2.0",
+    "type": "pkgconfig",
+    "version": "2.90.1",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/gio-unix-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include",
+      "-I/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/ffi",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/glib-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/lib/glib-2.0/include",
+      "-I/opt/homebrew/opt/gettext/include",
+      "-I/opt/homebrew/Cellar/pcre2/10.49/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libgio-2.0.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libgobject-2.0.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libglib-2.0.dylib",
+      "/opt/homebrew/opt/gettext/lib/libintl.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gio_unix"
+    ]
+  },
+  {
+    "name": "pixman-1",
+    "type": "pkgconfig",
+    "version": "0.46.4",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/pixman/0.46.4/include/pixman-1"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/pixman/0.46.4/lib/libpixman-1.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pixman"
+    ]
+  },
+  {
+    "name": "zlib",
+    "type": "pkgconfig",
+    "version": "1.2.12",
+    "compile_args": [],
+    "link_args": [
+      "-lz"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "zlib"
+    ]
+  },
+  {
+    "name": "slirp",
+    "type": "pkgconfig",
+    "version": "4.9.7",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/libslirp/4.9.7/include/slirp",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/include/glib-2.0",
+      "-I/opt/homebrew/Cellar/glib/2.90.1/lib/glib-2.0/include",
+      "-I/opt/homebrew/opt/gettext/include",
+      "-I/opt/homebrew/Cellar/pcre2/10.49/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/libslirp/4.9.7/lib/libslirp.dylib",
+      "/opt/homebrew/Cellar/glib/2.90.1/lib/libglib-2.0.dylib",
+      "/opt/homebrew/opt/gettext/lib/libintl.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "slirp"
+    ]
+  },
+  {
+    "name": "libiscsi",
+    "type": "pkgconfig",
+    "version": "1.20.3",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/libiscsi/1.20.3/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/libiscsi/1.20.3/lib/libiscsi.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libiscsi"
+    ]
+  },
+  {
+    "name": "libzstd",
+    "type": "pkgconfig",
+    "version": "1.5.7",
+    "compile_args": [
+      "-I/opt/homebrew/opt/zstd/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/opt/zstd/lib/libzstd.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "zstd"
+    ]
+  },
+  {
+    "name": "libcurl",
+    "type": "pkgconfig",
+    "version": "8.7.1",
+    "compile_args": [],
+    "link_args": [
+      "-lcurl"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "curl"
+    ]
+  },
+  {
+    "name": "ncursesw",
+    "type": "pkgconfig",
+    "version": "6.0.20150808",
+    "compile_args": [
+      "-D_DARWIN_C_SOURCE"
+    ],
+    "link_args": [
+      "-lncurses"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "sdl2",
+    "type": "pkgconfig",
+    "version": "2.32.74",
+    "compile_args": [
+      "-I/opt/homebrew/include",
+      "-I/opt/homebrew/include/SDL2",
+      "-D_THREAD_SAFE"
+    ],
+    "link_args": [
+      "/opt/homebrew/lib/libSDL2main.a",
+      "/opt/homebrew/lib/libSDL2.dylib",
+      "-Wl,-framework,Cocoa"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "sdl"
+    ]
+  },
+  {
+    "name": "libssh",
+    "type": "pkgconfig",
+    "version": "0.12.2",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/libssh/0.12.2_1/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/libssh/0.12.2_1/lib/libssh.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libssh"
+    ]
+  },
+  {
+    "name": "gnutls",
+    "type": "pkgconfig",
+    "version": "3.8.13",
+    "compile_args": [
+      "-I/opt/homebrew/opt/gnutls/include",
+      "-I/opt/homebrew/Cellar/nettle/4.0/include",
+      "-I/opt/homebrew/Cellar/libtasn1/4.21.0/include",
+      "-I/opt/homebrew/Cellar/libidn2/2.3.8/include",
+      "-I/opt/homebrew/Cellar/p11-kit/0.26.5/include/p11-kit-1"
+    ],
+    "link_args": [
+      "/opt/homebrew/opt/gnutls/lib/libgnutls.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gnutls",
+      "gnutls_crypto"
+    ]
+  },
+  {
+    "name": "capstone",
+    "type": "pkgconfig",
+    "version": "5.0.9",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/capstone/5.0.9/include/capstone"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/capstone/5.0.9/lib/libcapstone.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "capstone",
+      "dep"
+    ]
+  },
+  {
+    "name": "gmp",
+    "type": "pkgconfig",
+    "version": "6.3.0",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/gmp/6.3.0/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/gmp/6.3.0/lib/libgmp.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gmp"
+    ]
+  },
+  {
+    "name": "libpng",
+    "type": "pkgconfig",
+    "version": "1.6.59",
+    "compile_args": [
+      "-I/opt/homebrew/opt/libpng/include/libpng16"
+    ],
+    "link_args": [
+      "/opt/homebrew/opt/libpng/lib/libpng16.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "png"
+    ]
+  },
+  {
+    "name": "libjpeg",
+    "type": "pkgconfig",
+    "version": "3.2.1",
+    "compile_args": [
+      "-I/opt/homebrew/opt/jpeg-turbo/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/opt/jpeg-turbo/lib/libjpeg.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "jpeg"
+    ]
+  },
+  {
+    "name": "libusb-1.0",
+    "type": "pkgconfig",
+    "version": "1.0.30",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/libusb/1.0.30/include/libusb-1.0"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/libusb/1.0.30/lib/libusb-1.0.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libusb"
+    ]
+  },
+  {
+    "name": "libtasn1",
+    "type": "pkgconfig",
+    "version": "4.21.0",
+    "compile_args": [
+      "-I/opt/homebrew/Cellar/libtasn1/4.21.0/include"
+    ],
+    "link_args": [
+      "/opt/homebrew/Cellar/libtasn1/4.21.0/lib/libtasn1.dylib"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "tasn1"
+    ]
+  }
+]

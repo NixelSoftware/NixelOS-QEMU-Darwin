@@ -1,0 +1,6 @@
+#!/Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin/build-i386/pyvenv/bin/python3.15
+import sys
+from qemu.qmp.qmp_shell import main_wrap
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main_wrap())

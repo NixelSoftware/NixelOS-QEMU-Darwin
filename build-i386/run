@@ -1,0 +1,4 @@
+#!/bin/bash
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+exec /Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin/build-i386/pyvenv/bin/meson devenv -C /Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin/build-i386 -w "$PWD" "$@"

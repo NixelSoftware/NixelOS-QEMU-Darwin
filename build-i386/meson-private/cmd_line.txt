@@ -1,0 +1,10 @@
+[options]
+cocoa = enabled
+werror = false
+b_pie = false
+docs = disabled
+plugins = true
+
+[properties]
+native_file = ['/Users/celestemoore/Documents/os_root/NixelOS-QEMU-Darwin/build-i386/config-meson.cross']
+

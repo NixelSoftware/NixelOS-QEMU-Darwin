@@ -1,0 +1,141 @@
+# QEMU configure log Tue Nov 10 05:09:58 EST 2026
+# Configured with: '../configure' '--target-list=i386-softmmu' '--enable-cocoa' '--disable-docs' '--disable-werror'
+
+#
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 351 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __linux__ not defined
+    2 | #error __linux__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 353 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: _WIN32 not defined
+    2 | #error _WIN32 not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 355 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __OpenBSD__ not defined
+    2 | #error __OpenBSD__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 357 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __sun__ not defined
+    2 | #error __sun__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 359 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __HAIKU__ not defined
+    2 | #error __HAIKU__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 361 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD__ not defined
+    2 | #error __FreeBSD__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 363 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD_kernel__ not defined
+    2 | #error __FreeBSD_kernel__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 365 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __DragonFly__ not defined
+    2 | #error __DragonFly__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 367 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __NetBSD__ not defined
+    2 | #error __NetBSD__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 369 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 386 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __x86_64__ not defined
+    2 | #error __x86_64__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 392 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __sparc__ not defined
+    2 | #error __sparc__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 398 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: _ARCH_PPC64 not defined
+    2 | #error _ARCH_PPC64 not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 404 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __s390x__ not defined
+    2 | #error __s390x__ not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 406 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __riscv not defined
+    2 | #error __riscv not defined
+      |  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 119 124 342 408 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 119 124 893 0
+cc -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 119 130 1082 0
+cc -Werror -fPIE -DPIE -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -pie
+clang: error: argument unused during compilation: '-pie' [-Werror,-Wunused-command-line-argument]
+
+funcs: do_compiler do_cc compile_prog main
+lines: 119 130 1147 0
+cc -o config-temp/qemu-conf.exe config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:3: error: LITTLE
+    2 | # error LITTLE
+      |   ^
+1 error generated.
